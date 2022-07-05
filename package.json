@@ -1,0 +1,21 @@
+{
+  "name": "forkify_niki",
+  "version": "1.0.0",
+  "description": "Forkify app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Nikta",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.23.3",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  }
+}
