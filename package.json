@@ -4,14 +4,14 @@
   "description": "Forkify app",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "build_w": "webpack"
+    "build": "parcel build index.html"
   },
   "author": "Nikta",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.53.0",
-    "parcel": "^2.0.0"
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
   },
   "dependencies": {
     "core-js": "^3.6.5",
