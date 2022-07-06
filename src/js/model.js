@@ -1,7 +1,6 @@
 import { async } from 'regenerator-runtime';
 import { API_URL, RESULTS_PER_PAGE, API_KEY } from './config';
 import { AJAX } from './helpers';
-import addRecipeView from './views/addRecipeView';
 
 ///////////////////////////////////
 /*
