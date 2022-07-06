@@ -1,5 +1,4 @@
 import icons from 'url:../../img/icons.svg';
-var Fraction = require('fractional').Fraction
 
 // creating view class for the app
 
