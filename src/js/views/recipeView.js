@@ -18,7 +18,7 @@ class RecipeView extends View {
   addHandlerUpdateServings(handler) {
     this._parentElement.addEventListener('click', function (e) {
       // override default behavior of button
-      e.preventDefault();
+      //e.preventDefault();
       // get the button that was clicked btn--update-servings
       const button = e.target.closest('.btn--update-servings');
       if (!button) return;
@@ -30,7 +30,7 @@ class RecipeView extends View {
   addHandlerAddBookmark(handler) {
     this._parentElement.addEventListener('click', function (e) {
       // override default behavior of button
-      e.preventDefault();
+      //e.preventDefault();
       // get the button that was clicked btn--update-servings
       const button = e.target.closest('.btn--bookmark');
       if (!button) return;
