@@ -17,7 +17,7 @@ class RecipeView extends View {
 
   addHandlerUpdateServings(handler) {
     this._parentElement.addEventListener('click', function (e) {
-      // override default behavior of button
+      // override default behavior of button this will prevent load of the links from other buttons like directions
       //e.preventDefault();
       // get the button that was clicked btn--update-servings
       const button = e.target.closest('.btn--update-servings');
